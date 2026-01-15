@@ -14,6 +14,10 @@ It combines **Google Cloud Vision** and **Natural Language Processing** to expos
 
 [**Explore the Code**](#-tech-stack) · [**Report Bug**](issues) · [**Request Feature**](issues)
 
+<br />
+
+### 🚀 [**View Live Demo**](https://veritas-nine-rose.vercel.app/)
+
 </div>
 
 ---
