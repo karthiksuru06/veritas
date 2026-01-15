@@ -1,0 +1,14 @@
+{
+    "name": "veritas-root",
+    "version": "1.0.0",
+    "description": "Root package for Veritas Project",
+    "scripts": {
+        "install-all": "npm install && cd client && npm install && cd server && npm install",
+        "postinstall": "npm run install-all"
+    },
+    "author": "Karthik",
+    "license": "MIT",
+    "engines": {
+        "node": ">=16.0.0"
+    }
+}
