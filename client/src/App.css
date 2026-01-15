@@ -1,0 +1,122 @@
+:root {
+  --primary-color: #007bff;
+  --background-color: #f4f7f9;
+  --card-background: #ffffff;
+  --text-color: #333;
+  --border-color: #e0e0e0;
+  --shadow-color: rgba(0, 0, 0, 0.08);
+  --score-high: #28a745;
+  --score-medium: #ffc107;
+  --score-low: #dc3545;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: var(--card-background);
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 4px 15px var(--shadow-color);
+  margin-bottom: 1.5rem;
+  border: 1px solid var(--border-color);
+}
+
+h1 {
+  margin: 0 0 0.5rem 0;
+  text-align: center;
+  color: var(--primary-color);
+}
+
+.subtitle {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #6c757d;
+}
+
+textarea {
+  width: 100%;
+  height: 150px;
+  padding: 1rem;
+  border-radius: 8px;
+  border: 1px solid var(--border-color);
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  resize: vertical;
+  margin-bottom: 1rem;
+  box-sizing: border-box;
+}
+
+button {
+  width: 100%;
+  padding: 1rem;
+  border: none;
+  border-radius: 8px;
+  background-color: var(--primary-color);
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+button:disabled {
+  background-color: #a0c9ff;
+  cursor: not-allowed;
+}
+
+.score-container { text-align: center; margin-bottom: 1.5rem; }
+#score { font-size: 4rem; font-weight: 700; display: block; }
+.score-high { color: var(--score-high); }
+.score-medium { color: var(--score-medium); }
+.score-low { color: var(--score-low); }
+
+#tricksList { list-style-type: none; padding-left: 0; }
+#tricksList li {
+  background-color: #f8f9fa;
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  padding: 0.75rem 1rem;
+  margin-bottom: 0.5rem;
+}
+.tip-container {
+  margin-top: 1.5rem;
+  padding: 1rem;
+  background-color: #e7f3ff;
+  border-left: 4px solid var(--primary-color);
+  border-radius: 4px;
+}
+
+.file-input-container {
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+#file-upload {
+  display: none;
+}
+
+.file-upload-label {
+  cursor: pointer;
+  color: var(--primary-color);
+  text-decoration: underline;
+  padding: 8px;
+  border-radius: 4px;
+  transition: background-color 0.2s;
+}
+
+.file-upload-label:hover {
+  background-color: #e7f3ff;
+}
